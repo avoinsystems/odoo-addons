@@ -1,30 +1,23 @@
 # -*- coding: utf-8 -*-
 
-
+# noinspection PyStatementEffect
 {
     'name': 'Product Dimensions',
     'version': '1.0',
     'category': 'Product',
     'sequence': 14,
-    'summary': '',
     'description': """
 Product Dimensions
 ==================
 Add dimensions (length, width and height) products. Find the volume automatically when you change one of these dimensions.
     """,
-    'author':  'Ingenieria ADHOC',
+    'author': 'Ingenieria ADHOC',
     'website': 'www.ingadhoc.com',
-    'images': [
-    ],
     'depends': [
         'product',
     ],
     'data': [
         'product_view.xml',
-    ],
-    'demo': [
-    ],
-    'test': [
     ],
     'installable': True,
     'auto_install': False,
